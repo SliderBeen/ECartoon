@@ -11,6 +11,7 @@
 #import "ECTabBarController.h"
 #import <UMSocialCore/UMSocialCore.h>
 #import "NewFeatureViewController.h"
+#import "IQKeyboardManager.h"
 
 @interface AppDelegate ()
 
@@ -28,6 +29,8 @@
     [self setupUMeng];
     //初始化新特性页面
     [self setupNewFeature];
+    //键盘处理
+    [self setupKeyboard];
     
     //注册远程推送
     [self registerRemoteNotification];
@@ -68,6 +71,12 @@
         [UIView setAnimationsEnabled:oldState];
         
     } completion:nil];
+}
+
+#pragma mark - 键盘处理
+- (void)setupKeyboard {
+    [IQKeyboardManager sharedManager].enable = YES;
+    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
 }
 
 #pragma mark - 设置友盟
