@@ -7,10 +7,13 @@
 //
 
 #ifdef DEBUG
-#define ECLog(...) NSLog(__VA_ARGS__)
+#define ECLog(...) NSLog(@"%s 第%d行 \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
 #else
 #define ECLog(...)
 #endif
+
+#define WeakObj(o) autoreleasepool{} __weak typeof(o) o##Weak = o
+#define StrongObj(o) autoreleasepool{} __strong typeof(o) o = o##Weak
 
 /******************************************************************
  屏幕的宽度与高度
@@ -68,6 +71,42 @@
  *****************************************************************/
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
-#define UIColorFromRGBWithDecimal(r, g, b) ([UIColor colorWithRed:(float)(r)/255.0 green:(float)(g)/255.0 blue:(float)(b)/255.0 alpha:1.0])
+#define ECRGBColor(r, g, b) ([UIColor colorWithRed:(float)(r)/255.0 green:(float)(g)/255.0 blue:(float)(b)/255.0 alpha:1.0])
+#define ECRGBAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
+#define ECRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
+// clear背景颜色
+#define ECClearColor [UIColor clearColor]
 
+//设置 view 圆角和边框
+#define ECViewBorderRadius(View, Radius, Width, Color)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES];\
+[View.layer setBorderWidth:(Width)];\
+[View.layer setBorderColor:[Color CGColor]]
+
+//由角度转换弧度 由弧度转换角度
+#define ECDegreesToRadian(x) (M_PI * (x) / 180.0)
+#define ECRadianToDegrees(radian) (radian*180.0)/(M_PI)
+
+#define ECNotificationCenter [NSNotificationCenter defaultCenter]
 #define ECDefaults [NSUserDefaults standardUserDefaults]
+
+#define kWindow [UIApplication sharedApplication].keyWindow
+
+#define ECAppDelegate (AppDelegate *)([UIApplication sharedApplication].delegate)
+
+//获取view的frame（不建议使用）
+#define kGetViewWidth(view) view.frame.size.width
+#define kGetViewHeight(view) view.frame.size.height
+#define kGetViewX(view) view.frame.origin.x
+#define kGetViewY(view) view.frame.origin.y
+//获取图片资源
+#define kGetImage(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+
+//GCD - 一次性执行
+#define kDISPATCH_ONCE_BLOCK(onceBlock) static dispatch_once_t onceToken; dispatch_once(&onceToken, onceBlock);
+//GCD - 在Main线程上运行
+#define kDISPATCH_MAIN_THREAD(mainQueueBlock) dispatch_async(dispatch_get_main_queue(), mainQueueBlock);
+//GCD - 开启异步线程
+#define kDISPATCH_GLOBAL_QUEUE_DEFAULT(globalQueueBlock) dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), globalQueueBlocl);

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NewFeatureViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,12 +21,35 @@
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor blackColor];
     
-    [_window makeKeyAndVisible];
+    //初始化新特性页面
+    [self setupNewFeature];
     
     //注册远程推送
     [self registerRemoteNotification];
     
+    [_window makeKeyAndVisible];
+    
     return YES;
+}
+
+#pragma mark - 初始化新特性页面
+- (void)setupNewFeature {
+    if ([NewFeatureViewController shouldShowNewFeature]) {
+        @WeakObj(self);
+        NewFeatureViewController *newFeatureVC = [NewFeatureViewController newFeatureWithImageName:@"" imageCount:3 showPageControl:YES finishBlock:^{
+            @StrongObj(self);
+            [self gotoMainVC];
+        }];
+        self.window.rootViewController = newFeatureVC;
+    } else {
+        [self gotoMainVC];
+    }
+}
+
+#pragma mark - 进入主页面
+- (void)gotoMainVC {
+    
+    [self restoreRootViewController:nil];
 }
 
 #pragma mark - 切换 RootVC 时，淡入淡出效果
