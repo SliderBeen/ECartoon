@@ -18,6 +18,8 @@
 #import "UIImageView+WebCache.h"
 #import "Masonry.h"
 #import "ECHUD.h"
+#import "UIImage+Extention.h"
+#import "NSString+Extention.h"
 
 #endif
 

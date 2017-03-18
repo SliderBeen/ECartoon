@@ -87,6 +87,14 @@
 		F407E23E1E7D0A8800C94BB9 /* ECTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E23D1E7D0A8800C94BB9 /* ECTools.m */; };
 		F407E2411E7D0C9C00C94BB9 /* UIImage+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2401E7D0C9C00C94BB9 /* UIImage+Extention.m */; };
 		F407E2441E7D0CED00C94BB9 /* UIView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2431E7D0CED00C94BB9 /* UIView+Extention.m */; };
+		F407E2481E7D18D100C94BB9 /* NewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2471E7D18D100C94BB9 /* NewFeatureViewController.m */; };
+		F407E2591E7D1F0B00C94BB9 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E24C1E7D1F0B00C94BB9 /* TAAbstractDotView.m */; };
+		F407E25A1E7D1F0B00C94BB9 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E24E1E7D1F0B00C94BB9 /* TAAnimatedDotView.m */; };
+		F407E25B1E7D1F0B00C94BB9 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2501E7D1F0B00C94BB9 /* TADotView.m */; };
+		F407E25C1E7D1F0B00C94BB9 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2521E7D1F0B00C94BB9 /* TAPageControl.m */; };
+		F407E25D1E7D1F0B00C94BB9 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2541E7D1F0B00C94BB9 /* SDCollectionViewCell.m */; };
+		F407E25E1E7D1F0B00C94BB9 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2561E7D1F0B00C94BB9 /* SDCycleScrollView.m */; };
+		F407E25F1E7D1F0B00C94BB9 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2581E7D1F0B00C94BB9 /* UIView+SDExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -260,6 +268,22 @@
 		F407E2401E7D0C9C00C94BB9 /* UIImage+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extention.m"; sourceTree = "<group>"; };
 		F407E2421E7D0CED00C94BB9 /* UIView+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extention.h"; sourceTree = "<group>"; };
 		F407E2431E7D0CED00C94BB9 /* UIView+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extention.m"; sourceTree = "<group>"; };
+		F407E2461E7D18D100C94BB9 /* NewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureViewController.h; sourceTree = "<group>"; };
+		F407E2471E7D18D100C94BB9 /* NewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureViewController.m; sourceTree = "<group>"; };
+		F407E24B1E7D1F0B00C94BB9 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		F407E24C1E7D1F0B00C94BB9 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		F407E24D1E7D1F0B00C94BB9 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		F407E24E1E7D1F0B00C94BB9 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		F407E24F1E7D1F0B00C94BB9 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		F407E2501E7D1F0B00C94BB9 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		F407E2511E7D1F0B00C94BB9 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		F407E2521E7D1F0B00C94BB9 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		F407E2531E7D1F0B00C94BB9 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		F407E2541E7D1F0B00C94BB9 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		F407E2551E7D1F0B00C94BB9 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		F407E2561E7D1F0B00C94BB9 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		F407E2571E7D1F0B00C94BB9 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		F407E2581E7D1F0B00C94BB9 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +341,7 @@
 		F407E1341E7CE7DD00C94BB9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F407E2451E7D18AD00C94BB9 /* NewFeature */,
 				F407E1381E7CE88500C94BB9 /* Others */,
 			);
 			path = Classes;
@@ -338,6 +363,7 @@
 		F407E1361E7CE80F00C94BB9 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				F407E2491E7D1F0B00C94BB9 /* SDCycleScrollView */,
 				F407E2341E7D05B900C94BB9 /* ALToastView */,
 				F407E1C21E7CF8D100C94BB9 /* Masonry */,
 				F407E1DC1E7CF8D100C94BB9 /* MJRefresh */,
@@ -649,6 +675,44 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		F407E2451E7D18AD00C94BB9 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				F407E2461E7D18D100C94BB9 /* NewFeatureViewController.h */,
+				F407E2471E7D18D100C94BB9 /* NewFeatureViewController.m */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		F407E2491E7D1F0B00C94BB9 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F407E24A1E7D1F0B00C94BB9 /* PageControl */,
+				F407E2531E7D1F0B00C94BB9 /* SDCollectionViewCell.h */,
+				F407E2541E7D1F0B00C94BB9 /* SDCollectionViewCell.m */,
+				F407E2551E7D1F0B00C94BB9 /* SDCycleScrollView.h */,
+				F407E2561E7D1F0B00C94BB9 /* SDCycleScrollView.m */,
+				F407E2571E7D1F0B00C94BB9 /* UIView+SDExtension.h */,
+				F407E2581E7D1F0B00C94BB9 /* UIView+SDExtension.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		F407E24A1E7D1F0B00C94BB9 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				F407E24B1E7D1F0B00C94BB9 /* TAAbstractDotView.h */,
+				F407E24C1E7D1F0B00C94BB9 /* TAAbstractDotView.m */,
+				F407E24D1E7D1F0B00C94BB9 /* TAAnimatedDotView.h */,
+				F407E24E1E7D1F0B00C94BB9 /* TAAnimatedDotView.m */,
+				F407E24F1E7D1F0B00C94BB9 /* TADotView.h */,
+				F407E2501E7D1F0B00C94BB9 /* TADotView.m */,
+				F407E2511E7D1F0B00C94BB9 /* TAPageControl.h */,
+				F407E2521E7D1F0B00C94BB9 /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -725,9 +789,11 @@
 				F407E1BC1E7CF78700C94BB9 /* UIView+WebCacheOperation.m in Sources */,
 				F407E2121E7CF8D100C94BB9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				F407E2191E7CF8D100C94BB9 /* MJRefreshHeader.m in Sources */,
+				F407E2481E7D18D100C94BB9 /* NewFeatureViewController.m in Sources */,
 				F407E21A1E7CF8D100C94BB9 /* MJRefreshAutoGifFooter.m in Sources */,
 				F407E1B51E7CF78700C94BB9 /* UIButton+WebCache.m in Sources */,
 				F407E2371E7D05B900C94BB9 /* ALToastView.m in Sources */,
+				F407E25A1E7D1F0B00C94BB9 /* TAAnimatedDotView.m in Sources */,
 				F407E1B31E7CF78700C94BB9 /* SDWebImageManager.m in Sources */,
 				F407E16A1E7CE97300C94BB9 /* MJPropertyType.m in Sources */,
 				F407E2241E7CF8D100C94BB9 /* MJRefreshConst.m in Sources */,
@@ -735,8 +801,11 @@
 				F407E21C1E7CF8D100C94BB9 /* MJRefreshAutoStateFooter.m in Sources */,
 				F407E2211E7CF8D100C94BB9 /* MJRefreshNormalHeader.m in Sources */,
 				F407E1601E7CE97200C94BB9 /* AFHTTPSessionManager.m in Sources */,
+				F407E25D1E7D1F0B00C94BB9 /* SDCollectionViewCell.m in Sources */,
 				F407E2131E7CF8D100C94BB9 /* View+MASAdditions.m in Sources */,
 				F407E1661E7CE97300C94BB9 /* MJExtensionConst.m in Sources */,
+				F407E2591E7D1F0B00C94BB9 /* TAAbstractDotView.m in Sources */,
+				F407E25B1E7D1F0B00C94BB9 /* TADotView.m in Sources */,
 				F407E2411E7D0C9C00C94BB9 /* UIImage+Extention.m in Sources */,
 				F407E20E1E7CF8D100C94BB9 /* MASLayoutConstraint.m in Sources */,
 				F407E1B11E7CF78700C94BB9 /* SDWebImageDownloader.m in Sources */,
@@ -752,12 +821,14 @@
 				F407E1671E7CE97300C94BB9 /* MJFoundation.m in Sources */,
 				F407E2321E7D017F00C94BB9 /* ECHUD.m in Sources */,
 				F407E2201E7CF8D100C94BB9 /* MJRefreshGifHeader.m in Sources */,
+				F407E25C1E7D1F0B00C94BB9 /* TAPageControl.m in Sources */,
 				F407E2251E7CF8D100C94BB9 /* NSBundle+MJRefresh.m in Sources */,
 				F407E21F1E7CF8D100C94BB9 /* MJRefreshBackStateFooter.m in Sources */,
 				F407E16B1E7CE97300C94BB9 /* NSObject+MJClass.m in Sources */,
 				F407E2281E7CF8D100C94BB9 /* UIView+MJExtension.m in Sources */,
 				F407E1C01E7CF7C000C94BB9 /* MBProgressHUD.m in Sources */,
 				F407E2151E7CF8D100C94BB9 /* MJRefreshAutoFooter.m in Sources */,
+				F407E25E1E7D1F0B00C94BB9 /* SDCycleScrollView.m in Sources */,
 				F407E2221E7CF8D100C94BB9 /* MJRefreshStateHeader.m in Sources */,
 				F407E1621E7CE97300C94BB9 /* AFSecurityPolicy.m in Sources */,
 				F407E16F1E7CE97300C94BB9 /* NSString+MJExtension.m in Sources */,
@@ -797,6 +868,7 @@
 				F407E1761E7CEC5200C94BB9 /* ECTabBarController.m in Sources */,
 				F407E1B61E7CF78700C94BB9 /* UIImage+GIF.m in Sources */,
 				F407E22E1E7CFBED00C94BB9 /* NSString+Extention.m in Sources */,
+				F407E25F1E7D1F0B00C94BB9 /* UIView+SDExtension.m in Sources */,
 				F407E16C1E7CE97300C94BB9 /* NSObject+MJCoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
