@@ -23,7 +23,7 @@
     return [hash copy];
 }
 
-- (NSString *)stringFromMD5{
+- (NSString *)stringFromMD5 {
     if(self == nil || [self length] == 0)
         return nil;
     

@@ -84,6 +84,9 @@
 		F407E2321E7D017F00C94BB9 /* ECHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2311E7D017F00C94BB9 /* ECHUD.m */; };
 		F407E2371E7D05B900C94BB9 /* ALToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2361E7D05B900C94BB9 /* ALToastView.m */; };
 		F407E23A1E7D081B00C94BB9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2391E7D081B00C94BB9 /* BaseViewController.m */; };
+		F407E23E1E7D0A8800C94BB9 /* ECTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E23D1E7D0A8800C94BB9 /* ECTools.m */; };
+		F407E2411E7D0C9C00C94BB9 /* UIImage+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2401E7D0C9C00C94BB9 /* UIImage+Extention.m */; };
+		F407E2441E7D0CED00C94BB9 /* UIView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2431E7D0CED00C94BB9 /* UIView+Extention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -251,6 +254,12 @@
 		F407E2361E7D05B900C94BB9 /* ALToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALToastView.m; sourceTree = "<group>"; };
 		F407E2381E7D081B00C94BB9 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		F407E2391E7D081B00C94BB9 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F407E23C1E7D0A8800C94BB9 /* ECTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECTools.h; sourceTree = "<group>"; };
+		F407E23D1E7D0A8800C94BB9 /* ECTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECTools.m; sourceTree = "<group>"; };
+		F407E23F1E7D0C9C00C94BB9 /* UIImage+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extention.h"; sourceTree = "<group>"; };
+		F407E2401E7D0C9C00C94BB9 /* UIImage+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extention.m"; sourceTree = "<group>"; };
+		F407E2421E7D0CED00C94BB9 /* UIView+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extention.h"; sourceTree = "<group>"; };
+		F407E2431E7D0CED00C94BB9 /* UIView+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,6 +327,10 @@
 			children = (
 				F407E22C1E7CFBED00C94BB9 /* NSString+Extention.h */,
 				F407E22D1E7CFBED00C94BB9 /* NSString+Extention.m */,
+				F407E23F1E7D0C9C00C94BB9 /* UIImage+Extention.h */,
+				F407E2401E7D0C9C00C94BB9 /* UIImage+Extention.m */,
+				F407E2421E7D0CED00C94BB9 /* UIView+Extention.h */,
+				F407E2431E7D0CED00C94BB9 /* UIView+Extention.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -339,6 +352,7 @@
 		F407E1371E7CE80F00C94BB9 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				F407E23B1E7D0A7500C94BB9 /* Common */,
 				F407E22F1E7D015E00C94BB9 /* HUD */,
 				F407E1701E7CE9A600C94BB9 /* NetWork */,
 			);
@@ -626,6 +640,15 @@
 			path = ALToastView;
 			sourceTree = "<group>";
 		};
+		F407E23B1E7D0A7500C94BB9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F407E23C1E7D0A8800C94BB9 /* ECTools.h */,
+				F407E23D1E7D0A8800C94BB9 /* ECTools.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -714,6 +737,7 @@
 				F407E1601E7CE97200C94BB9 /* AFHTTPSessionManager.m in Sources */,
 				F407E2131E7CF8D100C94BB9 /* View+MASAdditions.m in Sources */,
 				F407E1661E7CE97300C94BB9 /* MJExtensionConst.m in Sources */,
+				F407E2411E7D0C9C00C94BB9 /* UIImage+Extention.m in Sources */,
 				F407E20E1E7CF8D100C94BB9 /* MASLayoutConstraint.m in Sources */,
 				F407E1B11E7CF78700C94BB9 /* SDWebImageDownloader.m in Sources */,
 				F407E1651E7CE97300C94BB9 /* AFURLSessionManager.m in Sources */,
@@ -756,6 +780,7 @@
 				F407E21D1E7CF8D100C94BB9 /* MJRefreshBackGifFooter.m in Sources */,
 				F407E1641E7CE97300C94BB9 /* AFURLResponseSerialization.m in Sources */,
 				F407E1AA1E7CF78700C94BB9 /* MKAnnotationView+WebCache.m in Sources */,
+				F407E23E1E7D0A8800C94BB9 /* ECTools.m in Sources */,
 				F407E1AC1E7CF78700C94BB9 /* NSImage+WebCache.m in Sources */,
 				F407E1B01E7CF78700C94BB9 /* SDWebImageDecoder.m in Sources */,
 				F407E16E1E7CE97300C94BB9 /* NSObject+MJProperty.m in Sources */,
@@ -768,6 +793,7 @@
 				F407E2111E7CF8D100C94BB9 /* NSArray+MASAdditions.m in Sources */,
 				F407E2171E7CF8D100C94BB9 /* MJRefreshComponent.m in Sources */,
 				F407E23A1E7D081B00C94BB9 /* BaseViewController.m in Sources */,
+				F407E2441E7D0CED00C94BB9 /* UIView+Extention.m in Sources */,
 				F407E1761E7CEC5200C94BB9 /* ECTabBarController.m in Sources */,
 				F407E1B61E7CF78700C94BB9 /* UIImage+GIF.m in Sources */,
 				F407E22E1E7CFBED00C94BB9 /* NSString+Extention.m in Sources */,

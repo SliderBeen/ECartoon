@@ -1,5 +1,5 @@
 //
-//  NSString+Extention.h
+//  ECTools.h
 //  FitnessECartoon
 //
 //  Created by 荣刚 on 17/3/18.
@@ -8,9 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (Extention)
+@interface ECTools : NSObject
 
-- (NSString *)md5;
-- (NSString *)stringFromMD5;
++ (NSString *)resoursePath:(NSString *)resourceName;
+
++ (UIImage *)resourseImage:(NSString *)imageName;
 
 @end
