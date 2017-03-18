@@ -376,7 +376,6 @@
 		F407E11C1E7C417C00C94BB9 /* FitnessECartoon */ = {
 			isa = PBXGroup;
 			children = (
-				F407E2331E7D058200C94BB9 /* Frameworks */,
 				F407E1351E7CE80F00C94BB9 /* Categories */,
 				F407E1361E7CE80F00C94BB9 /* Lib */,
 				F407E1371E7CE80F00C94BB9 /* Tools */,
@@ -714,13 +713,6 @@
 				F407E2311E7D017F00C94BB9 /* ECHUD.m */,
 			);
 			path = HUD;
-			sourceTree = "<group>";
-		};
-		F407E2331E7D058200C94BB9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		F407E2341E7D05B900C94BB9 /* ALToastView */ = {
@@ -1422,6 +1414,7 @@
 				F407E1331E7C417C00C94BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
