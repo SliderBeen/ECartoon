@@ -14,4 +14,14 @@
 
 + (UIImage *)resourseImage:(NSString *)imageName;
 
+/**
+ 判断是否新版本
+ */
++ (BOOL)isNewVersion;
+
+/**
+ 存储App版本号
+ */
++ (void)storeAppVersion;
+
 @end
