@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ECTabBarViewController.h
 //  FitnessECartoon
 //
 //  Created by 荣刚 on 17/3/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ECTabBarController : UITabBarController
 
 @end
-
