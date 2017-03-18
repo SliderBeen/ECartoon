@@ -106,6 +106,16 @@
 		F407E27C1E7D28E800C94BB9 /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F407E2731E7D28E700C94BB9 /* UShareUI.framework */; };
 		F407E27F1E7D293000C94BB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F407E27E1E7D293000C94BB9 /* CoreGraphics.framework */; };
 		F407E2811E7D293D00C94BB9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F407E2801E7D293D00C94BB9 /* libsqlite3.tbd */; };
+		F407E29D1E7D335E00C94BB9 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E29C1E7D335E00C94BB9 /* HomePageViewController.m */; };
+		F407E29F1E7D33B500C94BB9 /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F407E29E1E7D33B500C94BB9 /* HomePage.storyboard */; };
+		F407E2A11E7D33C600C94BB9 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F407E2A01E7D33C600C94BB9 /* Me.storyboard */; };
+		F407E2A41E7D33D500C94BB9 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2A31E7D33D500C94BB9 /* MeViewController.m */; };
+		F407E2A71E7D33F700C94BB9 /* PrivateCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2A61E7D33F700C94BB9 /* PrivateCustomViewController.m */; };
+		F407E2A91E7D343F00C94BB9 /* PrivateCustom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F407E2A81E7D343F00C94BB9 /* PrivateCustom.storyboard */; };
+		F407E2AB1E7D345A00C94BB9 /* Challenge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F407E2AA1E7D345A00C94BB9 /* Challenge.storyboard */; };
+		F407E2AE1E7D346700C94BB9 /* ChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2AD1E7D346700C94BB9 /* ChallengeViewController.m */; };
+		F407E2B11E7D367300C94BB9 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F407E2B01E7D367300C94BB9 /* MessageViewController.m */; };
+		F407E2B31E7D368300C94BB9 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F407E2B21E7D368300C94BB9 /* Message.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -309,6 +319,21 @@
 		F407E2731E7D28E700C94BB9 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
 		F407E27E1E7D293000C94BB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F407E2801E7D293D00C94BB9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F407E29B1E7D335E00C94BB9 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		F407E29C1E7D335E00C94BB9 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		F407E29E1E7D33B500C94BB9 /* HomePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
+		F407E2A01E7D33C600C94BB9 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		F407E2A21E7D33D500C94BB9 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		F407E2A31E7D33D500C94BB9 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		F407E2A51E7D33F700C94BB9 /* PrivateCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateCustomViewController.h; sourceTree = "<group>"; };
+		F407E2A61E7D33F700C94BB9 /* PrivateCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateCustomViewController.m; sourceTree = "<group>"; };
+		F407E2A81E7D343F00C94BB9 /* PrivateCustom.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PrivateCustom.storyboard; sourceTree = "<group>"; };
+		F407E2AA1E7D345A00C94BB9 /* Challenge.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Challenge.storyboard; sourceTree = "<group>"; };
+		F407E2AC1E7D346700C94BB9 /* ChallengeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeViewController.h; sourceTree = "<group>"; };
+		F407E2AD1E7D346700C94BB9 /* ChallengeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeViewController.m; sourceTree = "<group>"; };
+		F407E2AF1E7D367300C94BB9 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		F407E2B01E7D367300C94BB9 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		F407E2B21E7D368300C94BB9 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -376,6 +401,11 @@
 		F407E1341E7CE7DD00C94BB9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F407E2821E7D331C00C94BB9 /* Challenge */,
+				F407E2871E7D331C00C94BB9 /* HomePage */,
+				F407E28C1E7D331C00C94BB9 /* Me */,
+				F407E2911E7D331C00C94BB9 /* Message */,
+				F407E2961E7D331C00C94BB9 /* PrivateCustom */,
 				F407E2451E7D18AD00C94BB9 /* NewFeature */,
 				F407E1381E7CE88500C94BB9 /* Others */,
 			);
@@ -833,6 +863,216 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F407E2821E7D331C00C94BB9 /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				F407E2831E7D331C00C94BB9 /* Controller */,
+				F407E2841E7D331C00C94BB9 /* Model */,
+				F407E2851E7D331C00C94BB9 /* Service */,
+				F407E2861E7D331C00C94BB9 /* View */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
+		F407E2831E7D331C00C94BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F407E2AC1E7D346700C94BB9 /* ChallengeViewController.h */,
+				F407E2AD1E7D346700C94BB9 /* ChallengeViewController.m */,
+				F407E2AA1E7D345A00C94BB9 /* Challenge.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F407E2841E7D331C00C94BB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F407E2851E7D331C00C94BB9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F407E2861E7D331C00C94BB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F407E2871E7D331C00C94BB9 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				F407E2881E7D331C00C94BB9 /* Controller */,
+				F407E2891E7D331C00C94BB9 /* Model */,
+				F407E28A1E7D331C00C94BB9 /* Service */,
+				F407E28B1E7D331C00C94BB9 /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		F407E2881E7D331C00C94BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F407E29B1E7D335E00C94BB9 /* HomePageViewController.h */,
+				F407E29C1E7D335E00C94BB9 /* HomePageViewController.m */,
+				F407E29E1E7D33B500C94BB9 /* HomePage.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F407E2891E7D331C00C94BB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F407E28A1E7D331C00C94BB9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F407E28B1E7D331C00C94BB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F407E28C1E7D331C00C94BB9 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				F407E28D1E7D331C00C94BB9 /* Controller */,
+				F407E28E1E7D331C00C94BB9 /* Model */,
+				F407E28F1E7D331C00C94BB9 /* Service */,
+				F407E2901E7D331C00C94BB9 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F407E28D1E7D331C00C94BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F407E2A21E7D33D500C94BB9 /* MeViewController.h */,
+				F407E2A31E7D33D500C94BB9 /* MeViewController.m */,
+				F407E2A01E7D33C600C94BB9 /* Me.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F407E28E1E7D331C00C94BB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F407E28F1E7D331C00C94BB9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F407E2901E7D331C00C94BB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F407E2911E7D331C00C94BB9 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				F407E2921E7D331C00C94BB9 /* Controller */,
+				F407E2931E7D331C00C94BB9 /* Model */,
+				F407E2941E7D331C00C94BB9 /* Service */,
+				F407E2951E7D331C00C94BB9 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		F407E2921E7D331C00C94BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F407E2AF1E7D367300C94BB9 /* MessageViewController.h */,
+				F407E2B01E7D367300C94BB9 /* MessageViewController.m */,
+				F407E2B21E7D368300C94BB9 /* Message.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F407E2931E7D331C00C94BB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F407E2941E7D331C00C94BB9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F407E2951E7D331C00C94BB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F407E2961E7D331C00C94BB9 /* PrivateCustom */ = {
+			isa = PBXGroup;
+			children = (
+				F407E2971E7D331C00C94BB9 /* Controller */,
+				F407E2981E7D331C00C94BB9 /* Model */,
+				F407E2991E7D331C00C94BB9 /* Service */,
+				F407E29A1E7D331C00C94BB9 /* View */,
+			);
+			path = PrivateCustom;
+			sourceTree = "<group>";
+		};
+		F407E2971E7D331C00C94BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F407E2A51E7D33F700C94BB9 /* PrivateCustomViewController.h */,
+				F407E2A61E7D33F700C94BB9 /* PrivateCustomViewController.m */,
+				F407E2A81E7D343F00C94BB9 /* PrivateCustom.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F407E2981E7D331C00C94BB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F407E2991E7D331C00C94BB9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F407E29A1E7D331C00C94BB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -892,10 +1132,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F407E2AB1E7D345A00C94BB9 /* Challenge.storyboard in Resources */,
 				F407E12D1E7C417C00C94BB9 /* LaunchScreen.storyboard in Resources */,
+				F407E2B31E7D368300C94BB9 /* Message.storyboard in Resources */,
 				F407E12A1E7C417C00C94BB9 /* Assets.xcassets in Resources */,
+				F407E29F1E7D33B500C94BB9 /* HomePage.storyboard in Resources */,
 				F407E2231E7CF8D100C94BB9 /* MJRefresh.bundle in Resources */,
 				F407E2791E7D28E800C94BB9 /* UMSocialSDKPromptResources.bundle in Resources */,
+				F407E2A91E7D343F00C94BB9 /* PrivateCustom.storyboard in Resources */,
+				F407E2A11E7D33C600C94BB9 /* Me.storyboard in Resources */,
 				F407E27B1E7D28E800C94BB9 /* UMSocialSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -913,6 +1158,7 @@
 				F407E2191E7CF8D100C94BB9 /* MJRefreshHeader.m in Sources */,
 				F407E2481E7D18D100C94BB9 /* NewFeatureViewController.m in Sources */,
 				F407E21A1E7CF8D100C94BB9 /* MJRefreshAutoGifFooter.m in Sources */,
+				F407E2B11E7D367300C94BB9 /* MessageViewController.m in Sources */,
 				F407E1B51E7CF78700C94BB9 /* UIButton+WebCache.m in Sources */,
 				F407E2371E7D05B900C94BB9 /* ALToastView.m in Sources */,
 				F407E25A1E7D1F0B00C94BB9 /* TAAnimatedDotView.m in Sources */,
@@ -922,8 +1168,10 @@
 				F407E20F1E7CF8D100C94BB9 /* MASViewAttribute.m in Sources */,
 				F407E21C1E7CF8D100C94BB9 /* MJRefreshAutoStateFooter.m in Sources */,
 				F407E2211E7CF8D100C94BB9 /* MJRefreshNormalHeader.m in Sources */,
+				F407E2A41E7D33D500C94BB9 /* MeViewController.m in Sources */,
 				F407E1601E7CE97200C94BB9 /* AFHTTPSessionManager.m in Sources */,
 				F407E25D1E7D1F0B00C94BB9 /* SDCollectionViewCell.m in Sources */,
+				F407E2AE1E7D346700C94BB9 /* ChallengeViewController.m in Sources */,
 				F407E2131E7CF8D100C94BB9 /* View+MASAdditions.m in Sources */,
 				F407E1661E7CE97300C94BB9 /* MJExtensionConst.m in Sources */,
 				F407E2591E7D1F0B00C94BB9 /* TAAbstractDotView.m in Sources */,
@@ -967,6 +1215,7 @@
 				F407E2181E7CF8D100C94BB9 /* MJRefreshFooter.m in Sources */,
 				F407E1631E7CE97300C94BB9 /* AFURLRequestSerialization.m in Sources */,
 				F407E1691E7CE97300C94BB9 /* MJPropertyKey.m in Sources */,
+				F407E2A71E7D33F700C94BB9 /* PrivateCustomViewController.m in Sources */,
 				F407E1611E7CE97200C94BB9 /* AFNetworkReachabilityManager.m in Sources */,
 				F407E1731E7CE9E600C94BB9 /* HttpRequest.m in Sources */,
 				F407E1BB1E7CF78700C94BB9 /* UIView+WebCache.m in Sources */,
@@ -977,6 +1226,7 @@
 				F407E1AC1E7CF78700C94BB9 /* NSImage+WebCache.m in Sources */,
 				F407E1B01E7CF78700C94BB9 /* SDWebImageDecoder.m in Sources */,
 				F407E16E1E7CE97300C94BB9 /* NSObject+MJProperty.m in Sources */,
+				F407E29D1E7D335E00C94BB9 /* HomePageViewController.m in Sources */,
 				F407E11F1E7C417C00C94BB9 /* main.m in Sources */,
 				F407E1681E7CE97300C94BB9 /* MJProperty.m in Sources */,
 				F407E21B1E7CF8D100C94BB9 /* MJRefreshAutoNormalFooter.m in Sources */,

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ECNavigationController.h"
+#import "ECTabBarController.h"
 #import <UMSocialCore/UMSocialCore.h>
 #import "NewFeatureViewController.h"
 
@@ -39,7 +41,7 @@
 - (void)setupNewFeature {
     if ([NewFeatureViewController shouldShowNewFeature]) {
         @WeakObj(self);
-        NewFeatureViewController *newFeatureVC = [NewFeatureViewController newFeatureWithImageName:@"" imageCount:3 showPageControl:YES finishBlock:^{
+        NewFeatureViewController *newFeatureVC = [NewFeatureViewController newFeatureWithImageName:@"new_feature" imageCount:3 showPageControl:YES finishBlock:^{
             @StrongObj(self);
             [self gotoMainVC];
         }];
@@ -51,8 +53,8 @@
 
 #pragma mark - 进入主页面
 - (void)gotoMainVC {
-    
-    [self restoreRootViewController:nil];
+    ECTabBarController *tabBarVC = [[ECTabBarController alloc] init];
+    [self restoreRootViewController:tabBarVC];
 }
 
 #pragma mark - 切换 RootVC 时，淡入淡出效果
